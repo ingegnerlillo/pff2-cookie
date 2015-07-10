@@ -1,0 +1,20 @@
+moduleConf:
+  #enable if multilanguage site - load after session module!!
+  multiLang: true
+  #must be the same as in multilanguage module
+  keyName: lang
+  #used if multiLang = false or as default for multilanguage
+  defaultLang: it
+  #possible values are top or bottom
+  position: bottom
+  #possible values are dark or light
+  theme: light
+
+  cookieType:
+    - session
+    - analytics
+    - maps
+    - facebook
+    - twitter
+    - addThis
+    - tripAdvisor

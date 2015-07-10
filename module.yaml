@@ -1,0 +1,4 @@
+name: Cookie
+version: "0.1"
+desc: Manages cookies
+class: Cookie

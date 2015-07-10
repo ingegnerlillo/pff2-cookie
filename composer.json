@@ -1,0 +1,25 @@
+{
+	"name": "igegnerlillo/pff2-cookie",
+	"type": "pff2-module",
+	"description": "Cookie manager",
+	"license": "MIT",
+	"keywords": [
+		"pff2", "module", "cookie"
+	],
+	"authors": [
+		{
+			"name": "Marco Sangiorgi",
+			"email": "marco.sangiorgi@neropaco.net",
+			"role": "Developer"
+		}
+	],
+	"homepage": "https://github.com/ingegnerlillo/pff2-cookie",
+	"require": {
+		"stonedz/pff2-installers": "*" 	
+	},
+    "autoload": {
+        "psr-4": {
+            "pff\\modules\\": "src/"
+        }
+    }
+}
