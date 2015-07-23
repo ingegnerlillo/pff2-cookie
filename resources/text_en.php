@@ -1,8 +1,7 @@
 <script id="ce-banner-html" type="text/plain">
        This website or third-party tools installed here use cookies necessary for the operation according to the objectives and the features described in the cookie policy. To deepen the argument about the use of cookies please read our cookie policy.
 By closing this banner, scrolling this page or continuing navigation you consent to the use of cookies.
-        <a href="#" class="ce-accept">Enable cookie</a>
-        <a href="#cookie__popup1">More information</a>
+        <br/><a href="#" class="ce-accept">Enable cookie</a>
 </script>
 
 <script id="ce-iframePlaceholder-html" type="text/plain">
