@@ -5,6 +5,10 @@
         color:#222;
     }
 
+    .ce-banner a{
+        color: #555;
+    }
+
     .ce-banner a.ce-accept{
         background-color: #222;
         color:white;

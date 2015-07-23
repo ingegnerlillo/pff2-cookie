@@ -4,6 +4,10 @@
         color:white;
     }
 
+    .ce-banner a{
+        color: #C4C4C4;
+    }
+
     .ce-banner a.ce-accept{
         background-color: white;
         color:#333;
