@@ -2,10 +2,9 @@
 
     .ce-banner{
         width:98%;
-        padding: 6px 1%;
+        padding: 8px 1%;
         text-align: center;
-        font-size: 10px;
-        text-transform: uppercase;
+        font-size: 12px;
         transition-property: all;
         transition-duration: .5s;
         transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
@@ -19,13 +18,13 @@
         padding: 0;
     }
 
-    .ce-banner a{
+    .ce-banner a.ce-accept{
         text-decoration: none;
         display: inline-block;
         padding: 3px 10px;
-        margin-left: 15px;
         font-weight: normal;
         line-height: 18px;
+        margin: 5px 0;
     }
 
     .cookie__overlay {
