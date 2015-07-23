@@ -1,5 +1,6 @@
 <script id="ce-banner-html" type="text/plain">
-        Questo sito utilizza i cookie per fornire una migliore esperienza di navigazione
+        Questo sito o gli strumenti di terze parti qui installati utilizzano i cookie necessari al funzionamento secondo gli obiettivi e le funzionalità descritte nella cookie policy. Per approfondire l’ argomento circa l’utilizzo dei cookie leggi la nostra cookie policy
+Chiudendo questo banner, scrollando la pagina o proseguendo la navigazione in altro modo, acconsenti all’uso dei cookie.
         <a href="#" class="ce-accept">Abilita Cookies</a>
         <a href="#cookie__popup1">Maggiori informazioni</a>
 </script>
@@ -36,7 +37,7 @@
                 &bull; Cookie di "terze parti" di Facebook, consentono il funzionamento dei plugin del socialnetwork sul sito (Es, Like box, bottoni "mi piace", commenti, etc). E’ possibile consultare i dettagli su questi cookie in <a href="https://www.facebook.com/help/cookies/" target="_blank">questa pagina dedicata</a>.<br/>
             </div>
             <div id="cookie__twitter" class="cookie__list">
-                &bull; Cookie di "terze parti" di Twitter, permette il funzionamenot del plugin per la condivisione delle pagine su Twitter. E’ possibile consultare i dettagli su questi cookie in <a href="https://support.twitter.com/articles/20170514-twitters-use-of-cookies-and-similar-technologies" target="_blank">questa pagina dedicata</a>.<br/>
+                &bull; Cookie di "terze parti" di Twitter, permette il funzionamento del plugin per la condivisione delle pagine su Twitter. E’ possibile consultare i dettagli su questi cookie in <a href="https://support.twitter.com/articles/20170514-twitters-use-of-cookies-and-similar-technologies" target="_blank">questa pagina dedicata</a>.<br/>
             </div>
             <div id="cookie__addThis" class="cookie__list">
                 &bull; Cookie di "terze parti" di Addthis.com, sono legati al plugin che permette la condivisione delle pagine sui principali social network. E’ possibile consultare i dettagli su questi cookie in <a href="http://www.addthis.com/privacy/privacy-policy" target="_blank">questa pagina dedicata</a>.<br/>

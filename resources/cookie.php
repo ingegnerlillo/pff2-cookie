@@ -5,8 +5,11 @@
         COOKIES_ENABLER.init(
             {
                 eventScroll: true,
-                scrollOffset: 1,
-                clickOutside: true
+                scrollOffset: 60,
+                clickOutside: true,
+                onEnable: function(){
+                    $(".ce-banner").addClass("cookie__closed")
+                }
             }
         );
     })

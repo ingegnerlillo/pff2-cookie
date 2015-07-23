@@ -1,10 +1,10 @@
 <style>
 
     .ce-banner{
-        width:100%;
-        padding: 6px 0;
+        width:98%;
+        padding: 6px 1%;
         text-align: center;
-        font-size: 12px;
+        font-size: 10px;
         text-transform: uppercase;
         transition-property: all;
         transition-duration: .5s;
