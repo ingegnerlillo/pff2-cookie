@@ -18,6 +18,11 @@
         padding: 0;
     }
 
+    .ce-banner a{
+        text-decoration: none;
+        font-style: italic;
+    }
+
     .ce-banner a.ce-accept{
         text-decoration: none;
         display: inline-block;
@@ -25,6 +30,7 @@
         font-weight: normal;
         line-height: 18px;
         margin: 5px 0;
+        font-style: normal;
     }
 
     .cookie__overlay {

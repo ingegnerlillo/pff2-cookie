@@ -4,7 +4,7 @@
         color:white;
     }
 
-    .ce-banner a{
+    .ce-banner a.ce-accept{
         background-color: white;
         color:#333;
     }
