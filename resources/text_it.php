@@ -1,5 +1,5 @@
 <script id="ce-banner-html" type="text/plain">
-        Questo sito o gli strumenti di terze parti qui installati utilizzano i cookie necessari al funzionamento secondo gli obiettivi e le funzionalità descritte nella cookie policy. Per approfondire l’ argomento circa l’utilizzo dei cookie leggi la nostra cookie policy.
+        Questo sito o gli strumenti di terze parti qui installati utilizzano i cookie necessari al funzionamento secondo gli obiettivi e le funzionalità descritte nella <a href="#cookie__popup1">cookie policy</a>. Per approfondire l’ argomento circa l’utilizzo dei cookie leggi la nostra <a href="#cookie__popup1">cookie policy</a>.
 Chiudendo questo banner, scrollando la pagina o proseguendo la navigazione in altro modo, acconsenti all’uso dei cookie.
         <br/><a href="#" class="ce-accept">Ok, ho capito</a>
 </script>
