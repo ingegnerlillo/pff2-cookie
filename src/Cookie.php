@@ -13,7 +13,7 @@ class Cookie extends AModule implements IConfigurableModule, IBeforeViewHook, IA
 
     private $_multiLang, $_keyName, $_defaultLang, $_position, $_theme, $_cookieType;
 
-    public function __construct($confFile = 'pff2-cookie/module.conf.yaml'){
+    public function __construct($confFile = 'pff2-cookie/module.conf.local.yaml'){
         $this->loadConfig($confFile);
     }
 
