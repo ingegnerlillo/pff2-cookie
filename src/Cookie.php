@@ -57,7 +57,11 @@ class Cookie extends AModule implements IConfigurableModule, IBeforeViewHook, IA
         }
         $toInject = $text.$plugin.$cookie_list.$base_css.$cookie_position.$theme;
         $start = stripos($output, '</body>');
-        $toReturn = substr($output, 0, $start).$toInject.substr($output,$start);
+        if($start){
+            $toReturn = substr($output, 0, $start).$toInject.substr($output,$start);
+        }else{
+            $toReturn = $output;
+        }
         //$toReturn = $matches[0].$toInject.$matches[1];
         //$toReturn = preg_replace('#<body(.*?)</body>#is', '<body$1'.$toInject.'</body>', $output);
         return $toReturn;
