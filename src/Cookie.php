@@ -55,7 +55,7 @@ class Cookie extends AModule implements IConfigurableModule, IBeforeViewHook, IA
         }else{
             $cookie_position = "<style>.ce-banner{top:0}</style>";
         }
-        $toInject = $text.$plugin.$cookie_list.$base_css.$cookie_position.$theme;
+        $toInject = $plugin.$cookie_list.$base_css.$cookie_position.$theme.$text;
         $start = stripos($output, '</body>');
         if($start){
             $toReturn = substr($output, 0, $start).$toInject.substr($output,$start);
