@@ -34,7 +34,7 @@
     }
 
     .cookie__overlay {
-        position: absolute;
+        position: fixed;
         top: 0;
         bottom: 0;
         left: 0;
@@ -52,16 +52,15 @@
 
     .cookie__popup {
         margin: 8% auto;
-        padding: 2%;
+        padding: 4% 2% 4% 2%;
         background: #fff;
-        border-radius: 5px;
         width: 80%;
         position: relative;
         transition: all 5s ease-in-out;
         z-index: 1500;
         text-align: left;
         max-height: 82%;
-        overflow-y: scroll;
+        overflow-y: auto;
     }
 
     .cookie__popup .cookie__h2 {
@@ -80,6 +79,9 @@
         font-weight: bold;
         text-decoration: none;
         color: #333;
+        padding: 3px 8px;
+        display: inline-block;
+        border: 3px solid #333;
     }
     .cookie__popup .cookie__close:hover {
         opacity:0.8;

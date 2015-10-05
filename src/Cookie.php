@@ -53,8 +53,8 @@ class Cookie extends AModule implements IConfigurableModule, IBeforeViewHook, IA
             }
         }else{
             if($this->_privacy){
-                if(!empty($this->_privacyText["testo_".$this->_defaultLang])){
-                    $text .= $this->_privacyText["testo_".$this->_defaultLang];
+                if(!empty($this->_privacyText["text_".$this->_defaultLang])){
+                    $text .= $this->_privacyText["text_".$this->_defaultLang];
                 }
             }
             $text .= file_get_contents(__DIR__."/../resources/text_".$this->_defaultLang.".php");
