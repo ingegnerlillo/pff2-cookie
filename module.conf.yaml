@@ -9,6 +9,8 @@ moduleConf:
   position: bottom
   #possible values are dark or light
   theme: light
+  #enable if you want to prepend privacy text
+  privacy: false
 
   cookieType:
     - session
@@ -18,3 +20,9 @@ moduleConf:
     - twitter
     - addThis
     - tripAdvisor
+
+  privacyText:
+    - text_it:
+      - "testo privacy in italiano"
+    - text_en:
+      - "testo privacy in inglese"

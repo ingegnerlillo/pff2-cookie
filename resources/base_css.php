@@ -51,15 +51,17 @@
     }
 
     .cookie__popup {
-        margin: 50px auto;
-        padding: 20px;
+        margin: 8% auto;
+        padding: 2%;
         background: #fff;
         border-radius: 5px;
-        width: 60%;
+        width: 80%;
         position: relative;
         transition: all 5s ease-in-out;
         z-index: 1500;
         text-align: left;
+        max-height: 82%;
+        overflow-y: scroll;
     }
 
     .cookie__popup .cookie__h2 {
