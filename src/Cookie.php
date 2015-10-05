@@ -25,8 +25,13 @@ class Cookie extends AModule implements IConfigurableModule, IBeforeViewHook, IA
         $this->_position     = $conf['moduleConf']['position'];
         $this->_theme        = $conf['moduleConf']['theme'];
         $this->_cookieType   = $conf['moduleConf']['cookieType'];
-        $this->_privacy      = $conf['moduleConf']['privacy'];
-        $this->_privacyText  = $conf['moduleConf']['privacyText'];
+        if(isset($conf['moduleConf']['privacy'])){
+            $this->_privacy      = $conf['moduleConf']['privacy'];
+            $this->_privacyText  = $conf['moduleConf']['privacyText'];
+        }else{
+            $this->_privacy      = false;
+            $this->_privacyText  = array();
+        }
     }
 
     private function getCookieContent($output){
