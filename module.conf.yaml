@@ -20,6 +20,8 @@ moduleConf:
     - twitter
     - addThis
     - tripAdvisor
+    - addroll
+    - adwords
 
   privacyText:
     - text_it:

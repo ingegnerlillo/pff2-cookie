@@ -44,6 +44,12 @@ Chiudendo questo banner, scrollando la pagina o proseguendo la navigazione in al
             <div id="cookie__tripAdvisor" class="cookie__list">
                 &bull; Cookie di "terze parti" di Trip Advisor, sono legati al plugin che permette la visualizzazione delle recensioni sul sito. E’ possibile consultare i dettagli su questi cookie in <a href="http://www.tripadvisor.it/pages/privacy.html" target="_blank">questa pagina dedicata</a>.<br/>
             </div>
+            <div id="cookie__adroll" class="cookie__list">
+                &bull;  Cookie di "terze parti" di Adroll per Il servizio di retargeting. Tale servizio permette di "inseguire" gli utenti che hanno visitato il presente sito web senza portare a termine una conversione, stimolandoli a tornare per concludere l’azione. Tale servizio fa uso di differenti cookies, anche profilanti. Al seguente link è possibile trovare la privacy policy di ADROLL: <a href="https://www.adroll.com/en-GB/about/privacy" target="_blank">https://www.adroll.com/en-GB/about/privacy</a>. Mentre al seguente link <a href="http://www.networkadvertising.org/choices/" target="_blank">http://www.networkadvertising.org/choices/</a> è possibile scegliere per quali società ADROLL può fare pubblicità mirata.<br/>
+            </div>
+            <div id="cookie__adwords" class="cookie__list">
+                &bull; Cookie di "terze parti" di Google AdWords per Il servizio di retargeting. Tale servizio permette di "inseguire" gli utenti che hanno visitato il presente sito web senza portare a termine una conversione, stimolandoli a tornare per concludere l’azione. Tale servizio fa uso di differenti cookies, anche profilanti.<br/>
+            </div>
 
             <div class="cookie__title">Blocco dei cookie</div>
 
