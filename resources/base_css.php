@@ -51,7 +51,7 @@
     }
 
     .cookie__popup {
-        margin: 8% auto;
+        margin: 4% auto;
         padding: 4% 2% 4% 2%;
         background: #fff;
         width: 80%;
@@ -59,7 +59,7 @@
         transition: all 5s ease-in-out;
         z-index: 1500;
         text-align: left;
-        max-height: 82%;
+        max-height: 78%;
         overflow-y: auto;
     }
 

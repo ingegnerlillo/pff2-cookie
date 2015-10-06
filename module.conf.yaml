@@ -23,8 +23,9 @@ moduleConf:
     - addroll
     - adwords
 
+  #privacy text, you can add languages
   privacyText:
-    - text_it:
-      - "testo privacy in italiano"
-    - text_en:
-      - "testo privacy in inglese"
+    text_it: |
+      <p>testo in italiano</p>
+    text_en: |
+      <p>testo in inglese</p>

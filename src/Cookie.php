@@ -35,30 +35,37 @@ class Cookie extends AModule implements IConfigurableModule, IBeforeViewHook, IA
     }
 
     private function getCookieContent($output){
-        $toInject = "";
         $plugin = file_get_contents(__DIR__."/../resources/cookie.php");
         $text = "";
+
         if($this->_multiLang && !empty($_SESSION['lang'])){
-            if($this->_privacy){
-                if(!empty($this->_privacyText["testo_".$_SESSION['lang']])){
-                    $text .= $this->_privacyText["testo_".$_SESSION['lang']];
-                }elseif(!empty($this->_privacyText["testo_".$this->_defaultLang])){
-                    $text .= $this->_privacyText["testo_".$this->_defaultLang];
-                }
-            }
             if(file_exists(__DIR__."/../resources/text_".$_SESSION['lang'].".php")){
                 $text .= file_get_contents(__DIR__."/../resources/text_".$_SESSION['lang'].".php");
             }else{
                 $text .= file_get_contents(__DIR__."/../resources/text_".$this->_defaultLang.".php");
             }
         }else{
-            if($this->_privacy){
-                if(!empty($this->_privacyText["text_".$this->_defaultLang])){
-                    $text .= $this->_privacyText["text_".$this->_defaultLang];
-                }
-            }
             $text .= file_get_contents(__DIR__."/../resources/text_".$this->_defaultLang.".php");
         }
+
+        if($this->_privacy){
+            $start = stripos($text, '__popup">');
+            if($this->_multiLang && !empty($_SESSION['lang'])){
+                if(!empty($this->_privacyText["testo_".$_SESSION['lang']])){
+                    $temp = $this->_privacyText["testo_".$_SESSION['lang']];
+                }elseif(!empty($this->_privacyText["testo_".$this->_defaultLang])){
+                    $temp = $this->_privacyText["testo_".$this->_defaultLang];
+                }
+            }else{
+                if(!empty($this->_privacyText["text_".$this->_defaultLang])){
+                    $temp = $this->_privacyText["text_".$this->_defaultLang];
+                }else{
+                    $temp = "";
+                }
+            }
+            $text = substr($text, 0, $start+9).$temp.substr($text,$start+9);
+        }
+
         $base_css = file_get_contents(__DIR__."/../resources/base_css.php");
         if($this->_theme == "dark"){
             $theme = file_get_contents(__DIR__."/../resources/dark_css.php");
@@ -67,7 +74,7 @@ class Cookie extends AModule implements IConfigurableModule, IBeforeViewHook, IA
         }
         $cookie_list = "<script>$(function(){";
         foreach($this->_cookieType as $c){
-               $cookie_list .= "$('#cookie__".$c."').show();";
+            $cookie_list .= "$('#cookie__".$c."').show();";
         }
         $cookie_list .= "});</script>";
         if($this->_position == "bottom"){
