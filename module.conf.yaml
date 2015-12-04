@@ -20,6 +20,7 @@ moduleConf:
     - twitter
     - addThis
     - tripAdvisor
+    - pixel
     - addroll
     - adwords
 

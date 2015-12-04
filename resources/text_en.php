@@ -46,6 +46,15 @@ By closing this banner, scrolling this page or continuing navigation you consent
             <div id="cookie__tripAdvisor" class="cookie__list">
                 &bull; "Third part" cookies of Tripadvisor.com. More information <a href="http://www.tripadvisor.com/pages/privacy.html" target="_blank">here</a>.<br/>
             </div>
+            <div id="cookie__adroll" class="cookie__list">
+                &bull; "Third part" cookies of Adroll. More information <a href="https://www.adroll.com/en-GB/about/privacy" target="_blank">https://www.adroll.com/en-GB/about/privacy</a><br/>
+            </div>
+            <div id="cookie__pixel" class="cookie__list">
+                &bull; "Third part" cookies of Facebook. More information <a href="https://www.facebook.com/help/cookies/" target="_blank">here</a>.<br/>
+            </div>
+            <div id="cookie__adwords" class="cookie__list">
+                &bull; "Third part" cookies of Google Analytics for retargeting. More information <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage" target="_blank">here</a>.<br/>
+            </div>
 
             <div class="cookie__title">What can I do to stop cookies being installed on my browser?</div>
 
