@@ -101,7 +101,10 @@ class Cookie extends AModule implements IConfigurableModule, IBeforeViewHook, IA
      */
     public function doBeforeView($context = null)
     {
-        ob_start(array($this,'getCookieContent'));
+        if(!isset($_SESSION['cookieaggiunti'])){
+            ob_start(array($this,'getCookieContent'));
+            $_SESSION['cookieaggiunti'] = true;
+        }
     }
 
     /**
@@ -111,6 +114,9 @@ class Cookie extends AModule implements IConfigurableModule, IBeforeViewHook, IA
      */
     public function doAfterView()
     {
+        if(isset($_SESSION['cookieaggiunti'])){
+            unset($_SESSION['cookieaggiunti']);
+        }
         ob_end_flush();
     }
 }
